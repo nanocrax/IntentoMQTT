@@ -130,7 +130,6 @@ public class ServiceMQTT extends Service {
                                 //.... Se agregan las necesarias
                             }
                         }.start();
-
                     }
                     Toast.makeText(thisContext, "Llego: " + mqttMessage.toString(), Toast.LENGTH_SHORT).show();
                 }
